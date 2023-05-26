@@ -1,17 +1,12 @@
 body {
     background-color:bisque;
   }
-h1{
+span{
     color: green;
-    max-width:fit-content;
-    display: inline;
 }
 
-h1.limit:hover  {
-    color: red;
-    display: inline;
-    
-    
+span:hover  {
+    color: red;    
   }
 
 p::selection {
