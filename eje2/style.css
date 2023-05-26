@@ -1,0 +1,10 @@
+input:valid {
+    border: 2px solid green;
+    background-color: green;
+  }
+  
+  input:invalid {
+    border: 2px solid red;
+    background-color: red;
+  }
+  

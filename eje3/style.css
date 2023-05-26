@@ -1,0 +1,53 @@
+*{
+    text-align: justify;
+}
+p{
+    color: aqua;
+}
+#title-1{
+    color: brown;
+}
+.bg-yellow{
+    color: bisque;
+}
+a[href="https://www.yahoo.com"] {
+    color:blueviolet;
+  }
+  [class^="title"] {
+    font-weight: bold;
+    color:cadetblue;
+  }
+  a[href$=".com"] {
+    color: red;
+    text-decoration: underline;
+  }
+  [href*="127"] {
+    color: green;
+    font-weight: bold;
+  }
+  [href^="http"] {
+    color: blue;
+    text-decoration: underline;
+  }
+  a, p, h1 {
+    color: red;
+    font-size: 16px;
+  }
+
+  main p {
+    color: blue;
+    font-size: 14px;
+  }
+  h1 + * {
+    color: green;
+    font-weight: bold;
+  }
+  h1 ~ * {
+    color: purple;
+    font-style: italic;
+  }
+  main > * {
+    color: blue;
+    font-size: 14px;
+  }  
+  
