@@ -2,12 +2,16 @@ body {
     background-color:bisque;
   }
 h1{
-    color: green    ;
-    block-size: auto;
+    color: green;
+    max-width:fit-content;
+    display: inline;
 }
-h1:hover {
+
+h1.limit:hover  {
     color: red;
-    block-size: auto;
+    display: inline;
+    
+    
   }
 
 p::selection {
