@@ -1,10 +1,10 @@
 .diana {
     width: 400px;
     height: 400px;
-    background-color: gray;
+    background: linear-gradient(grey, blue);
     position: relative;
     border-radius: 50%;
-  }
+}
   
   .circle {
     position: absolute;
