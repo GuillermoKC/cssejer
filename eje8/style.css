@@ -1,0 +1,35 @@
+tr, td{
+    border: solid 1px black;
+    text-align: center;
+    border-spacing: 0px;
+    padding: 1px;
+    width: 400px;
+   }
+   
+   
+   td{
+    
+    border-top: none;
+    border-right: none;
+   }
+
+   table{
+    border: solid;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+background-color: blanchedalmond;
+}
+tr.sinborde{
+    border: none;
+}
+td.sinborde2{
+    border: none;   
+}
+tfoot{
+    background-color: aqua;
+}
+span{
+    background-color:aqua;
+    font-size: 17px;
+}
+

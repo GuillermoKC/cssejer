@@ -1,0 +1,43 @@
+.container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background-color: red;
+    border: solid black;
+    margin: 18px;
+  }
+  
+  
+  .corner {
+    width: 20px;
+    height: 20px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: absolute;
+    border: solid black;
+  }
+  
+  .top-left {
+    top: -12px;
+    left: -12px;
+    text-align: center;
+  }
+  
+  .top-right {
+    top: -12px;
+    right: -12px;
+    text-align: center;
+  }
+  
+  .bottom-left {
+    bottom: -12px;
+    left: -12px;
+    text-align: center;
+  }
+  
+  .bottom-right {
+    bottom: -12px;
+    right: -12px;
+    text-align: center;
+  }
+  

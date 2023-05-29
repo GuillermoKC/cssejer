@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+
+
+div.izq{
+    text-align:left;
+    margin: 10px;
+    background-color: 	#c8c8c8;
+    border-style: solid;
+    width: 200px;
+    padding:2px;
+    height: auto;
+    
+}
+div.cent{
+    text-align: center;
+    margin: 10px;
+    background-color: 	#c8c8c8;
+    border-style: solid;
+    width: 200px;
+    padding: 2px;
+    height: auto;
+}
+div.der{
+    text-align: right;
+    margin: 10px;
+    background-color: 	#c8c8c8;
+    border-style: solid;
+    width: 200px;
+    padding: 2px;
+    height: auto;
+}

@@ -1,0 +1,104 @@
+.diana {
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    position: relative;
+    border-radius: 50%;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .circle1 {
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .circle2 {
+    width: 340px;
+    height: 340px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .circle3 {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .circle4 {
+    width: 260px;
+    height: 260px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .circle5 {
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .circle6 {
+    width: 180px;
+    height: 180px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .circle7 {
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .circle8 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .circle9 {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .circle10 {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .line {
+    position: absolute;
+    background-color: black;
+  }
+  
+  .horizontal {
+    top:49.8%;
+    left: 10px;
+    right: 10px;
+    height: 2px;
+  }
+  
+  .vertical {
+    left: 49.8%;
+    top: 10px;
+    bottom: 10px;
+    width: 2px;
+  }
+  

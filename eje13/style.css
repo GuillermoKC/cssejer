@@ -1,0 +1,15 @@
+div.texto{
+    width: 345px;
+    height:345px;
+    float: left;
+    margin: 2px;
+    text-align: justify;
+}
+div.foto{
+float: right;
+margin: 2px;
+}
+img{
+    width: 850px;
+    height: 450px;
+}
