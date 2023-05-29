@@ -17,7 +17,7 @@ nav{
 }
 section{
     background-color: pink;
-    width: 560px;
+    width: 690px;
     height: 400px;
     float: left;
     margin-top: 2px;
@@ -25,7 +25,7 @@ section{
 }
 aside{
     background-color: blueviolet;
-    width: 350px;
+    width: 475px;
     height: 400px;
     float: right;
     margin-top: 2px;
