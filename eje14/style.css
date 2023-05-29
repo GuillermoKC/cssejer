@@ -1,0 +1,40 @@
+header{
+    background-color: red;
+    width: auto;
+    height: auto;
+    min-width: 800px;
+    min-height: 100px;
+    clear: top;
+}
+nav{
+    background-color: blue;
+    width: auto;
+    height: auto;
+    min-width: 800px;
+    min-height: 50px;
+    clear: top;
+
+}
+section{
+    background-color: pink;
+    width: 560px;
+    height: 400px;
+    float: left;
+    margin-top: 2px;
+
+}
+aside{
+    background-color: blueviolet;
+    width: 350px;
+    height: 400px;
+    float: right;
+    margin-top: 2px;
+}
+footer{
+    background-color: greenyellow;
+    width: auto;
+    height: auto;
+    min-width: 800px;
+    min-height: 25px;
+    clear: both;
+}
