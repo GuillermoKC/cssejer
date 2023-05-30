@@ -1,0 +1,114 @@
+body{
+    background-color: beige;
+}
+h2{
+    text-align: center;
+    clear: both;
+    margin: 30px;
+}
+div.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+div.rojo1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0); 
+    float: left;
+  }
+  div.verde1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 0); 
+    float: left;
+    margin-left: 40px;
+  }
+  div.azul1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 255); 
+    float: left;
+    margin-left: 40px;
+  }
+
+  div.rojo2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0); 
+    float: right;
+  }
+  div.azul2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 255); 
+    float: left;
+  }
+  div.violeta{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 255); 
+    clear: both;
+    float: left;
+  }
+  div.azul3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 255); 
+    float: right;
+    clear: both;
+  }
+  div.verde2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 0); 
+    float: right;
+  }
+
+  div.azulclaro{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 255); 
+    float: left;
+  }
+  div.verde3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 0); 
+    float: right;
+    clear: both;
+  }
+  div.rojo3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0); 
+    float: right;
+  }
+
+  div.amarillo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 0); 
+    float: left;
+  }
+  p{
+    margin-top: 70px;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
