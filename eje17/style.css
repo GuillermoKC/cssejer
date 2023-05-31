@@ -80,6 +80,7 @@ footer.banner{
     }
     div.hero{
         grid-row: 2;
+        grid-column: span;
     }
     nav.menu{
         grid-column: 1;
