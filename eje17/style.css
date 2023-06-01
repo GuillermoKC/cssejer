@@ -74,31 +74,111 @@ footer.banner{
 }
  
  /* Media queries para 768px */
- @media (max-width: 768px) {
+ @media (max-width:768px ){
+    div.contenedor{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10vh  40vh repeat(5 , 1fr);
+        width: 100vh;
+        height: 100vh;
+        background-color: white;
+        
+    }
     header.cabezon{
-        grid-column: span 4;
+        grid-column: span 5;
+        font-size: 40px;
+        padding: 2%;
     }
     div.hero{
         grid-row: 2;
-        grid-column: span;
+        grid-column: span 5;
+        font-size: 150px;
+        padding: 10%;
     }
     nav.menu{
         grid-column: 1;
-        grid-row: 3 /6;
+        grid-row: 3 /8;
     }
-    div.image{
-
-    }
-    div.extra{
+    div.main{
+        grid-column: span 4;
+        grid-row: 3 span 2 ;
+        font-size: 50px;
+        padding: 5%;
     }
     footer.banner{
-
+        grid-column : span 4;
+        grid-row:span 2;
+        font-size: 50px;
     }
+    div.image{
+        grid-column: 5;
+        grid-row: 7 ;
+        font-size: 30px;
+        padding: 10%;
+    }
+    div.extra{
+        grid-column: span 3;
+        grid-row: 7;
+        font-size: 30px;
+        padding: 10%;
+    }
+
 
  }
 
 
 /* Media queries para 425px */
- @media (max-width: 425px) {
+ @media (max-width: 426px){
+
+    div.contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vh 10vh 20vh 20vh 15vh 15vh 15vh ;
+        width: 100vh;
+        height: 100vh;
+        background-color: white;       
+    }
+    header.cabezon{
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 20px;
+        padding: 1%;
+    }
+    nav.menu{
+        grid-column: 1;
+        grid-row: 2;
+        font-size: 20px;
+        padding: 2%;
+    }
+    div.hero{
+        grid-column: 1;
+        grid-row: 3;
+        font-size: 40px;
+        padding: 5%;
+    }
+    div.main{
+        grid-column: 1;
+        grid-row: 4;
+        font-size: 40px;
+        padding: 5%;
+    }
+    footer.banner{
+        grid-column: 1;
+        grid-row: 5;
+        font-size: 40px;
+        padding: 2%;
+    }
+    div.extra{
+        grid-column: 1;
+        grid-row: 6;
+        font-size: 40px;
+        padding: 2%;
+    }
+    div.image{
+        grid-column: 1;
+        grid-row: 7;
+        font-size: 40px;
+        padding: 1%;
+    }
 
   }
